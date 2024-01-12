@@ -1,3 +1,4 @@
+#hi
 import time
 import pandas as pd
 import numpy as np
@@ -8,6 +9,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 
 def get_filters():
     """
+    유다시티 프로젝트
     Asks user to specify a city, month, and day to analyze.
 
     Returns:
@@ -202,7 +204,7 @@ def display_raw_data(df):
             i = i+5
         else:
             break
-
+# 메인함수
 def main():
     while True:
         city, month, day = get_filters()
