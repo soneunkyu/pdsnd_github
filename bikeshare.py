@@ -158,7 +158,7 @@ def trip_duration_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-
+#사용자 통계
 def user_stats(df):
     """Displays statistics on bikeshare users."""
 
@@ -192,7 +192,7 @@ def user_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
-    
+   #반복 
 def display_raw_data(df):
     """Displays raw data to the user in groups of 5 rows at a time."""
     i = 1
