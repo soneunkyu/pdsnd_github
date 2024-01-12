@@ -6,7 +6,7 @@ import numpy as np
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
-
+#월 주 
 def get_filters():
     """
     유다시티 프로젝트
@@ -138,7 +138,7 @@ def station_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-
+#시작시간
 def trip_duration_stats(df):
     """Displays statistics on the total and average trip duration."""
 
